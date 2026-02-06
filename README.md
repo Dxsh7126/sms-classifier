@@ -1,6 +1,7 @@
 # SMS Spam Classifier (Adversarially Robust)
 
-A machine learning project that builds and stress-tests an SMS spam classifier using real-world data.
+Adversarially robust SMS spam classifier using TF-IDF and character-level n-grams.
+Handles obfuscated spam such as “Fr33 c@sh w1n n0w” through domain-aware normalization and pattern-based features.
 
 ## 🔍 Problem
 Spam detection is an adversarial problem where attackers actively obfuscate text to evade filters.
