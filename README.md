@@ -25,11 +25,12 @@ Spam detection is an adversarial problem where attackers actively obfuscate text
 - Spam Precision: ~94%
 - Improved robustness against obfuscated spam (e.g. `Fr33 c@sh w1n n0w`)
 
-  | Version         | Features               | Result (F1 spam) |
-| --------------- | ---------------------- | ---------------- |
-| Baseline        | Word TF-IDF            | 0.90             |
-| + Normalization | + domain normalization | 0.94             |
-| + Char n-grams  | final model            | 0.94             |
+| Version          | Features               | Result (F1 spam) |
+| ---------------- | --------------------- | ---------------- |
+| Baseline         | Word TF-IDF           | 0.90             |
+| + Normalization  | Domain normalization  | 0.94             |
+| + Char n-grams   | Final model           | 0.94             |
+|
 
 
 ## 📂 Dataset
